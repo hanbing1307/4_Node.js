@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>向指定文件写入内容</title>
+</head>
+<body>
+    <!-- 
+        fs.writeFile()
+            语法格式
+                fs.writeFile(file, data[, options], callback)
+            参数解读:
+                参数1： 必选参数，需要指定一个 文件路径的字符串， 表示文件的存放路径
+                参数2： 必选参数，表示要写入的内容
+                参数3： 可选参数，表示以什么格式写入文件内容，默认值是utf-8
+                参数4： 必选参数，文件写入完成后的回调函数
+            
+            示例代码：
+                // 引入fs模块
+                const fs = require('fs')
+
+                // 2. 使用fs.writeFile()方法读取文件
+                fs.writeFile('./4_1fs.readfile.txt', 'Hello, Node.js', 'utf-8', function(err){
+                    console.log(err)
+                })
+     -->
+</body>
+</html>
